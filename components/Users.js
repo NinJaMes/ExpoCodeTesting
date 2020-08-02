@@ -99,7 +99,6 @@ class Users extends PureComponent {
     }
 
     onRefresh =()=>{
-        console.log('onRefresh')
         this.setState({
             usersList: [],
             page: 1,
@@ -138,6 +137,3 @@ class Users extends PureComponent {
     }
 }
 export default Users
-/**
- 
- */
